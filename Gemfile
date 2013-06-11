@@ -12,7 +12,7 @@ group :development, :test do
   gem 'spork', '0.9.2'
 
 
-end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -26,6 +26,7 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
+
   # System-dependent gems
 # Test gems on Linux
 group :test do
@@ -34,7 +35,7 @@ group :test do
   gem 'libnotify', '0.5.9'
 end
 
-end
+
 
 group :production do
   gem 'pg', '0.12.2'
